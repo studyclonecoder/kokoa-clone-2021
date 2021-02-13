@@ -29,9 +29,9 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class= nav_btn><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
-            <li class= nav_btn><a class="nav__link" href="#"><span class="nav__notification">1</span><i class="far fa-comment fa-2x"></i></a></li>
-            <li class= nav_btn><a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a></li>
-            <li class= nav_btn><a class="nav__link" href="#"><span class="nav__notification nav__notification--small"></span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+            <li class= nav_btn><a class="nav__link" href="chats.html"><span class="nav__notification badge">1</span><i class="far fa-comment fa-2x"></i></a></li>
+            <li class= nav_btn><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class= nav_btn><a class="nav__link" href="more.html"><span class="nav__notification badge badge--sm"></span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
         </ul>
     </nav>        
     
@@ -44,6 +44,48 @@
         </div>
     </header>
 
+    <a href="#" id="friends-display-link">
+        <i class="fas fa-info-circle"></i>
+        Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar--xl" src="https://cdn.pixabay.com/photo/2016/08/03/01/09/carrot-1565597_960_720.jpg">
+                <div class="user-component__text">
+                    <div class="user-component__title">Carrot</div>
+                    <!-- <h6 class="user-component__subtitle">This text whatever</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>            
+        </div>
+        
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--sm" src="https://cdn.pixabay.com/photo/2016/08/03/01/09/carrot-1565597_960_720.jpg">
+                    <div class="user-component__text">
+                        <div class="user-component__title user-component__title--not-bold">Carrot</div>
+                        <!-- <h6 class="user-component__subtitle">This text whatever</h6> -->
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <div>
+                        <span>2</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>            
+            </div>
+
+        </div>
+    </main>
     <script 
     src="http://kit.fontawesome.com/6478f529f2.js" 
     crossorgin="anonymous">
